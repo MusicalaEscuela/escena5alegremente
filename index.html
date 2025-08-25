@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlegreMente 2025 · Escena 5</title>
+  <meta name="description" content="Guía completa para aprender y montar la Escena 5: Montaña Trenza / Vivo en un país." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body
+  id="scene5"
+  data-audio="Vivo en un país.mp3,Vivo en un país - Orquesta.mp3"
+  data-guion="Guión Escena V.pdf"
+  data-scores-url="[PON_AQUÍ_EL_ENLACE_DE_LA_CARPETA_DE_PARTITURAS]"
+  data-hero="Escena 5.jpg"
+  data-fondo="Fondo 5.jpg"
+>
+  <!-- Barra superior -->
+  <header class="top">
+    <div class="topbar wrap">
+      <div class="brand">
+        <img src="logo.jpg" alt="Logo Musicala" width="36" height="36" style="border-radius:10px; object-fit:cover" />
+        <div>
+          <h1>AlegreMente 2025 · Guía de Escena</h1>
+          <small class="muted">Escena 5 · Montaña Trenza / Vivo en un país</small>
+        </div>
+      </div>
+      <a class="btn-back" href="index.html">⬅ Volver al menú</a>
+    </div>
+  </header>
+
+  <!-- Reproductor -->
+  <div class="playerbar">
+    <div class="player wrap">
+      <label for="sceneAudio" id="audioLabel">🎶 Audio: “Vivo en un país”</label>
+      <audio id="sceneAudio" preload="auto" controls playsinline></audio>
+      <button id="btnPlay" class="btn" title="Reproducir / Pausar">▶ Reproducir</button>
+    </div>
+  </div>
+
+  <!-- Filtros -->
+  <div class="filters">
+    <div class="wrap">
+      <div class="filter-group" id="grp-areas">
+        <h4>Arte</h4>
+        <span class="chip" data-type="area" data-area="teatro">Teatro</span>
+        <span class="chip" data-type="area" data-area="musica">Música/Orquesta</span>
+        <span class="chip" data-type="area" data-area="plastica">Artes plásticas</span>
+        <span class="chip" data-type="area" data-area="danza">Danza</span>
+        <span class="chip" data-type="area" data-area="luces">Luces</span>
+        <span class="chip" data-type="area" data-area="produccion">Producción/Logística</span>
+      </div>
+
+      <div class="filter-group" id="grp-centros">
+        <h4>Centro</h4>
+        <span class="chip" data-type="centro" data-centro="arroyo">Arroyo</span>
+        <span class="chip" data-type="centro" data-centro="betania">Betania</span>
+        <span class="chip" data-type="centro" data-centro="colegio">Colegio</span>
+        <span class="chip" data-type="centro" data-centro="jerusalen">Jerusalén</span>
+        <span class="chip" data-type="centro" data-centro="lucero">Lucero</span>
+        <span class="chip" data-type="centro" data-centro="padre">Padre Misericordioso</span>
+        <span class="chip" data-type="centro" data-centro="santo">Santo Domingo</span>
+      </div>
+
+      <div class="filter-group" id="grp-log">
+        <h4>Logística</h4>
+        <span class="chip" data-type="log" data-log="vestuario">Vestuario</span>
+        <span class="chip" data-type="log" data-log="materiales">Materiales</span>
+        <span class="chip" data-type="log" data-log="proyeccion">Proyección</span>
+        <span class="chip" data-type="log" data-log="luces">Luces</span>
+        <span class="chip" data-type="log" data-log="utileria">Utilería</span>
+      </div>
+
+      <div class="toolbar">
+        <div class="search">
+          <input id="q" type="search" placeholder="Buscar en la escena…" aria-label="Buscar" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <!-- Imagen principal -->
+    <div class="hero">
+      <img src="Escena 5.jpg" alt="Escena 5: Montaña Trenza / Vivo en un país" />
+    </div>
+
+    <div class="grid">
+      <!-- COLUMNA PRINCIPAL -->
+      <section>
+        <!-- Resumen -->
+        <div class="card" data-tags="general produccion" data-centros="arroyo betania colegio jerusalen lucero padre santo">
+          <header onclick="toggle(this)"><h2>Resumen en 30 segundos</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <p>Sofía asciende una <b>montaña sagrada</b>. En cada paso, escucha voces de su tierra: arrullos, silbos, refranes. Descubre su <em>raíz</em> y la fuerza de un <b>país que canta</b>. Con <b>Vivo en un país</b> como canto final, se teje memoria, identidad y pertenencia.</p>
+            <div class="tools">
+              <span class="pill">Duración: 6–8 min</span>
+              <span class="pill">Lenguajes: Teatro · Danza · Artes Plásticas</span>
+              <span class="pill">Música: Orquesta + Coro (Vivo en un país)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Propósito -->
+        <div class="card" data-tags="general" data-centros="arroyo betania colegio jerusalen lucero padre santo">
+          <header onclick="toggle(this)"><h2>🎯 Propósito pedagógico</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><strong>Conectar</strong> la historia personal con la memoria colectiva y el territorio.</li>
+              <li><strong>Valorar</strong> tradiciones (arrullo, refranes, telar) como saberes vivos.</li>
+              <li><strong>Celebrar</strong> la diversidad regional desde el cuerpo y la música.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Acción paso a paso -->
+        <div class="card" data-tags="teatro danza" data-centros="jerusalen santo">
+          <header onclick="toggle(this)"><h2>⛰️ Acción paso a paso</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ol>
+              <li>Sofía entra descalza con mochila tejida. Cada paso activa una <em>voz</em> (arrullo, silbo, refrán).</li>
+              <li>Aparecen <b>trenzas</b> que conectan a dúos: se tejen líneas y caminos.</li>
+              <li>Se despliega un <b>álbum familiar</b> (utilería) que Sofía mira en la “cima”.</li>
+              <li>Comienza <b>Vivo en un país</b>; danzas regionales suaves forman caminos y flores.</li>
+              <li>Cierre: reverencia a la tierra; telar colectivo elevado al centro.</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Imagen plástica -->
+        <div class="card" data-tags="plastica produccion" data-centros="santo" data-log="materiales proyeccion vestuario utileria">
+          <header onclick="toggle(this)"><h2>🎨 Imagen plástica en escena</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><strong>Fondo</strong>: <b>Montañas</b> y caminos (proyección: <code>Fondo 5.jpg</code>).</li>
+              <li><strong>Telar vivo</strong>: tiras de <b>trapillo</b> (verdes, cafés, tierra) que los niños conectan en dúos.</li>
+              <li><strong>Álbum familiar</strong> grande (cartón paja) con fotos/ilustraciones simbólicas.</li>
+              <li><strong>Estaciones</strong> de “sembrar/caminar” (cestos, semillas falsas, hojas secas).</li>
+            </ul>
+            <div class="stage-assets">
+              <div class="asset">
+                <a href="Fondo 5.jpg" data-preview><img src="Fondo 5.jpg" alt="Fondo proyectado – Montañas" /></a>
+                <small class="muted">Fondo proyectado</small>
+              </div>
+              <div class="asset">
+                <a href="Escena 5.jpg" data-preview><img src="Escena 5.jpg" alt="Arte guía Escena 5" /></a>
+                <small class="muted">Arte guía</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Luces -->
+        <div class="card" data-tags="luces tecnica" data-centros="arroyo betania colegio jerusalen lucero padre santo" data-log="luces">
+          <header onclick="toggle(this)"><h2>🎛️ Luces y transiciones</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <table>
+              <thead><tr><th>Cue</th><th>Estado</th><th>Detalle</th></tr></thead>
+              <tbody>
+                <tr><td><b>L1 – Amanecer</b></td><td>Verde suave + ámbar tenue</td><td>Niebla fina opcional; sensación de montaña.</td></tr>
+                <tr><td><b>L2 – Voces</b></td><td>Recortes cálidos focales</td><td>Micro-espacios para arrullo, silbo, refrán.</td></tr>
+                <tr><td><b>L3 – Telar</b></td><td>Verdes medios + blancos cortos</td><td>Resalta tiras de trapillo y cruces de caminos.</td></tr>
+                <tr><td><b>L4 – Cima</b></td><td>Ámbar dorado</td><td>Álbum familiar, mirada al pasado.</td></tr>
+                <tr><td><b>L5 – Vivo en un país</b></td><td>General cálido</td><td>Final coral; subir levemente nivel en coros.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Guion (PDF) -->
+        <div class="card" data-tags="teatro produccion" data-centros="jerusalen santo colegio lucero padre arroyo betania">
+          <header onclick="toggle(this)"><h2>📄 Guion de la escena (PDF)</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <iframe class="pdf-frame" src="Guión Escena V.pdf#toolbar=1&navpanes=0&statusbar=0&view=FitH" title="Guion Escena 5"></iframe>
+            <div class="actions">
+              <a id="pdfView" class="btn" href="Guión Escena V.pdf" target="_blank" rel="noreferrer">🔎 Ver en pestaña</a>
+              <a id="pdfDownload" class="btn" href="Guión Escena V.pdf" download>⬇️ Descargar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Partituras (carpeta) -->
+        <div class="card" data-tags="musica produccion" data-centros="arroyo betania colegio jerusalen lucero padre santo">
+          <header onclick="toggle(this)"><h2>🎼 Partituras (carpeta completa)</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <p class="muted">Arreglo y conducción de <b>Vivo en un país</b> con entradas claras para coro y transiciones entre figuras.</p>
+            <p>
+              <a id="allScoresLink" class="btn" href="[PON_AQUÍ_EL_ENLACE_DE_LA_CARPETA_DE_PARTITURAS]" target="_blank" rel="noreferrer">📂 Abrir carpeta de partituras</a>
+            </p>
+            <p class="note">Sugerencia: descarga la carpeta para ensayo sin conexión.</p>
+          </div>
+        </div>
+
+        <!-- Guía de rítmicas/figuras -->
+        <div class="card" data-tags="musica danza produccion" data-centros="santo jerusalen">
+          <header onclick="toggle(this)"><h2>🧭 Guía de rítmicas y figuras escénicas</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><b>Tempos</b>: andante con crecida en coros; respiraciones antes de cada cambio de figura.</li>
+              <li><b>Figuras</b>: caminos en fila (subida), círculos que se abren (flores), cruz central (cima).</li>
+              <li><b>Señales</b>: mano al corazón (memoria), manos al suelo (tierra), telar elevado (cierre).</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Checklist -->
+        <div class="card" data-tags="general produccion tecnica danza teatro plastica musica" data-centros="arroyo betania colegio jerusalen lucero padre santo" data-log="vestuario luces materiales proyeccion utileria">
+          <header onclick="toggle(this)"><h2>✅ Checklist</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul id="check-escena5">
+              <li>[ ] Proyección de <b>montañas</b> operativa (Fondo 5.jpg).</li>
+              <li>[ ] <b>Trapillo</b> preparado (colores tierra) y roles de tejido asignados.</li>
+              <li>[ ] <b>Álbum familiar</b> listo (utilería) con páginas firmes.</li>
+              <li>[ ] Cues de luces L1–L5 programados y probados.</li>
+              <li>[ ] Entradas/segundas voces de coro claras en <b>Vivo en un país</b>.</li>
+              <li>[ ] Señales de final (reverencia + telar elevado) coordinadas.</li>
+            </ul>
+            <div class="actions">
+              <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COLUMNA LATERAL -->
+      <aside>
+        <div class="card" data-tags="produccion" data-centros="jerusalen santo">
+          <header onclick="toggle(this)"><h2>👥 Centros y responsables</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><b>Teatro:</b> Jerusalén (Brenda)</li>
+              <li><b>Danza:</b> Santo Domingo (Camila)</li>
+              <li><b>Plástica:</b> Santo Domingo (Leydy)</li>
+            </ul>
+            <p class="muted">Coordinación general: orquesta + docentes de cada centro.</p>
+          </div>
+        </div>
+
+        <div class="card" data-tags="produccion plastica" data-centros="santo" data-log="materiales vestuario proyeccion utileria">
+          <header onclick="toggle(this)"><h2>📦 Materiales clave</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><b>Vestuario:</b> inspiración Nariño / tonos tierra.</li>
+              <li><b>Trapillo</b> grueso (verdes, cafés, ocres) para telar vivo.</li>
+              <li><b>Álbum</b> (h. bond, cartón paja, hilo encerado, punzón, marcadores).</li>
+              <li><b>Proyección</b>: <code>Fondo 5.jpg</code> (montañas/caminos).</li>
+              <li><b>Utilería</b>: mochila tejida, cestos, “semillas”.</li>
+              <li><b>Luces</b>: paleta en verdes/ámbar (ver cues).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card" data-tags="musica produccion" data-centros="arroyo betania colegio jerusalen lucero padre santo">
+          <header onclick="toggle(this)"><h2>🎻 Indicaciones musicales</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li>Entrada coral suave; crecer en estribillos para sostener la caminata.</li>
+              <li>Dejar <b>2 compases</b> libres antes del telar elevado (cierre).</li>
+              <li>Final en <em>unísono</em> con reverencia a tierra y apagado cálido.</li>
+            </ul>
+            <p class="muted">Revisar tesitura de voces infantiles y balance con orquesta.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Volver -->
+    <div class="wrap center">
+      <a class="btn-back" href="index.html">⬅ Volver al menú</a>
+    </div>
+
+    <div class="footer">AlegreMente 2025 · Escena 5 · Guía práctica para todo público</div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
