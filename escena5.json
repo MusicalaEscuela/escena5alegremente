@@ -92,7 +92,7 @@
       "<b>Danza:</b> Santo Domingo",
       "<b>Artes plásticas:</b> Santo Domingo"
     ],
-    "docentesText": "Docentes responsables: Brenda, Camila y Leydy"
+    "docentesText": "Docentes responsables: Eryck Martínez, Camila Pirajan y Leydy Díaz"
   },
   "materiales": [
     "Vestuario inspiración regional / tonos tierra. <span class='pill'>vestuario</span>",
@@ -110,9 +110,9 @@
   "docentes": {
     "hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
     "items": [
-      { "name": "Brenda (Teatro)", "url": "docentes/brenda.html", "areas": ["teatro"] },
-      { "name": "Camila (Danza)", "url": "docentes/camila.html", "areas": ["danza"] },
-      { "name": "Leydy (Plástica)", "url": "docentes/leydy.html", "areas": ["plastica"] }
+      { "name": "Eryck Martínez", "url": "docentes/brenda.html", "areas": ["teatro"] },
+      { "name": "Camila Pirajan", "url": "docentes/camila.html", "areas": ["danza"] },
+      { "name": "Leydy Díaz", "url": "docentes/leydy.html", "areas": ["plastica"] }
     ]
   },
   "glosario": [
@@ -121,3 +121,4 @@
     { "term": "unísono", "def": "todos a la vez en la misma nota o gesto." }
   ]
 }
+
