@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "AlegreMente 2025 · Escena 5",
+    "subtitle": "Montaña Trenza / Vivo en un país",
+    "footer": "AlegreMente 2025 · Escena 5 · Guía práctica",
+    "images": {
+      "hero": "Escena 5.jpg",
+      "heroAlt": "Escena 5 – Montaña Trenza / Vivo en un país"
+    }
+  },
+  "audio": {
+    "label": "🎶 Audio: “Vivo en un país”",
+    "sources": ["Vivo en un país.mp3", "Vivo en un país - Orquesta.mp3"]
+  },
+  "filters": {
+    "areas": ["teatro", "musica", "danza", "plastica", "luces", "sonido", "produccion"],
+    "centros": ["arroyo", "betania", "colegio", "jerusalen", "lucero", "padre", "santo"],
+    "log": ["vestuario", "sonido", "proyeccion", "materiales", "luces", "utileria"]
+  },
+  "resumen": {
+    "text": "Sofía asciende una <b>montaña sagrada</b>. En cada paso, escucha voces de su tierra: arrullos, silbos, refranes. Descubre su <em>raíz</em> y la fuerza de un <b>país que canta</b>. Con <b>Vivo en un país</b> como canto final, se teje memoria, identidad y pertenencia.",
+    "duration": "10 min",
+    "tags": ["Teatro · Danza · Artes Plásticas", "Música: Orquesta + Coro"]
+  },
+  "proposito": [
+    "<strong>Conectar</strong> la historia personal con la memoria colectiva y el territorio.",
+    "<strong>Valorar</strong> tradiciones (arrullo, refranes, telar) como saberes vivos.",
+    "<strong>Celebrar</strong> la diversidad regional desde el cuerpo y la música."
+  ],
+  "pasos": [
+    "Sofía entra descalza con mochila tejida. Cada paso activa una <em>voz</em> (arrullo, silbo, refrán).",
+    "Aparecen <b>trenzas</b> que conectan a dúos: se tejen líneas y caminos.",
+    "Se despliega un <b>álbum familiar</b> (utilería) que Sofía mira en la “cima”.",
+    "Comienza <b>Vivo en un país</b>; danzas regionales suaves forman caminos y flores.",
+    "Cierre: reverencia a la tierra; telar colectivo elevado al centro."
+  ],
+  "plastica": {
+    "items": [
+      "<strong>Fondo</strong>: montañas y caminos (proyección: <code>Fondo 5.jpg</code>).",
+      "<strong>Telar vivo</strong>: tiras de <b>trapillo</b> (verdes, cafés, tierra) que los niños conectan en dúos.",
+      "<strong>Álbum familiar</strong> grande (cartón paja) con fotos/ilustraciones simbólicas.",
+      "<strong>Estaciones</strong> de “sembrar/caminar” (cestos, semillas falsas, hojas secas)."
+    ],
+    "assets": [
+      { "src": "Fondo 5.jpg" },
+      { "src": "Escena 5.jpg" }
+    ]
+  },
+  "luces": [
+    { "Cue": "<b>L1 – Amanecer</b>", "Estado": "Verde suave + ámbar tenue", "Detalle": "Niebla fina opcional; sensación de montaña." },
+    { "Cue": "<b>L2 – Voces</b>", "Estado": "Recortes cálidos focales", "Detalle": "Micro-espacios para arrullo, silbo, refrán." },
+    { "Cue": "<b>L3 – Telar</b>", "Estado": "Verdes medios + blancos cortos", "Detalle": "Resalta tiras de trapillo y cruces de caminos." },
+    { "Cue": "<b>L4 – Cima</b>", "Estado": "Ámbar dorado", "Detalle": "Álbum familiar, mirada al pasado." },
+    { "Cue": "<b>L5 – Vivo en un país</b>", "Estado": "General cálido", "Detalle": "Final coral; subir levemente nivel en coros." }
+  ],
+  "sonido": [
+    "<b>Entrada coral</b> suave; crecer en estribillos para sostener la caminata.",
+    "<b>Respiraciones</b> claras antes de cada cambio de figura.",
+    "<b>Dejar 2 compases</b> libres antes del telar elevado (cierre).",
+    "<b>Final</b> en unísono con reverencia a tierra y apagado cálido.",
+    "<b>Refuerzo</b> de microfonía/monitores según espacio (ver rider general)."
+  ],
+  "vestuario": {
+    "images": [
+      { "title": "Trajes tonos tierra – opción 1", "src": "vestuario-tierra1.jpg", "file": "vestuario-tierra1.jpg" },
+      { "title": "Trajes tonos tierra – opción 2", "src": "vestuario-tierra2.jpg", "file": "vestuario-tierra2.jpg" },
+      { "title": "Accesorios tejidos (mochilas, fajas)", "src": "accesorios-tejidos.jpg", "file": "accesorios-tejidos.jpg" },
+      { "title": "Faldas/ponchos regionales", "src": "ponchos-faldas.jpg", "file": "ponchos-faldas.jpg" }
+    ]
+  },
+  "escenario": {
+    "images": [
+      { "title": "Arte escena 5", "src": "Escena 5.jpg", "alt": "Arte guía Escena 5" },
+      { "title": "Fondo 5", "src": "Fondo 5.jpg", "alt": "Montañas y caminos en tonos tierra" }
+    ]
+  },
+  "checklist": [
+    "[ ] Proyección de <b>montañas</b> operativa (Fondo 5.jpg).",
+    "[ ] <b>Trapillo</b> preparado (colores tierra) y roles de tejido asignados.",
+    "[ ] <b>Álbum familiar</b> listo (utilería) con páginas firmes.",
+    "[ ] Cues de luces L1–L5 programados y probados.",
+    "[ ] Entradas/segundas voces de coro claras en <b>Vivo en un país</b>.",
+    "[ ] Señales de final (reverencia + telar elevado) coordinadas."
+  ],
+  "pdfs": {
+    "guion": "Guión Escena V.pdf",
+    "partitura": "Vivo en un país Partitura.pdf"
+  },
+  "centros": {
+    "items": [
+      "<b>Teatro:</b> Jerusalén",
+      "<b>Danza:</b> Santo Domingo",
+      "<b>Artes plásticas:</b> Santo Domingo"
+    ],
+    "docentesText": "Docentes responsables: Brenda, Camila y Leydy"
+  },
+  "materiales": [
+    "Vestuario inspiración regional / tonos tierra. <span class='pill'>vestuario</span>",
+    "Tiras de <b>trapillo</b> (verdes, cafés, ocres) para telar vivo. <span class='pill'>materiales</span>",
+    "Álbum: cartón paja, hilo encerado, punzón, marcadores. <span class='pill'>utileria</span>",
+    "Proyección: <code>Fondo 5.jpg</code> (montañas/caminos). <span class='pill'>proyeccion</span>",
+    "Mochila tejida, cestos y “semillas”. <span class='pill'>utileria</span>",
+    "Paleta de luces en verdes/ámbar (ver cues). <span class='pill'>luces</span>"
+  ],
+  "recursos": [
+    { "title": "Guión Escena V (PDF)", "href": "Guión Escena V.pdf", "areas": ["teatro", "produccion"], "icon": "📄" },
+    { "title": "Carpeta de Partituras – Vivo en un país", "href": "[PON_AQUÍ_EL_ENLACE_DE_LA_CARPETA_DE_PARTITURAS]", "areas": ["musica"], "icon": "🎼" },
+    { "title": "Pista – Vivo en un país (MP3)", "href": "Vivo en un país.mp3", "areas": ["musica"], "icon": "🎵" }
+  ],
+  "docentes": {
+    "hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
+    "items": [
+      { "name": "Brenda (Teatro)", "url": "docentes/brenda.html", "areas": ["teatro"] },
+      { "name": "Camila (Danza)", "url": "docentes/camila.html", "areas": ["danza"] },
+      { "name": "Leydy (Plástica)", "url": "docentes/leydy.html", "areas": ["plastica"] }
+    ]
+  },
+  "glosario": [
+    { "term": "andante", "def": "tempo moderado, ideal para caminar y respirar en escena." },
+    { "term": "telar vivo", "def": "acción colectiva de entrelazar tiras de tela para crear una figura." },
+    { "term": "unísono", "def": "todos a la vez en la misma nota o gesto." }
+  ]
+}

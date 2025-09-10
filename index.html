@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlegreMente · Guía de Escena 5</title>
+  <meta name="description" content="Plantilla base para todas las escenas de AlegreMente." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Topbar -->
+  <header class="top">
+    <div class="topbar wrap">
+      <div class="brand">
+        <img src="logo.jpg" alt="Logo Musicala" width="36" height="36" />
+        <div>
+          <h1 id="sc-title">AlegreMente · Guía de Escena</h1>
+          <small id="sc-subtitle" class="muted">Cargando…</small>
+        </div>
+      </div>
+      <a class="btn-back" href="https://musicalaescuela.github.io/AlegreMente-2025/">⬅ Volver al menú</a>
+    </div>
+  </header>
+
+  <!-- Player -->
+  <div class="playerbar">
+    <div class="player wrap" id="player-area" hidden>
+      <label id="audio-label">🎶 Audio</label>
+      <audio id="scene-audio" preload="auto" controls playsinline></audio>
+      <button id="btnPlay" class="btn">▶ Reproducir</button>
+    </div>
+  </div>
+
+  <!-- Filtros -->
+  <div class="filters">
+    <div class="wrap">
+      <div class="filter-group" id="chips-areas"><h4>Arte</h4></div>
+      <div class="filter-group" id="chips-centros"><h4>Centro</h4></div>
+      <div class="filter-group" id="chips-log"><h4>Logística</h4></div>
+
+      <div class="toolbar">
+        <div class="search"><input id="q" type="search" placeholder="Buscar…" /></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenido -->
+  <main class="wrap">
+    <div class="hero"><img id="hero-img" alt="Imagen de portada" /></div>
+    <div class="grid">
+      <section id="col-main"></section>
+      <aside id="col-aside"></aside>
+    </div>
+
+    <div class="wrap center">
+      <a class="btn-back" href="https://musicalaescuela.github.io/AlegreMente-2025/">⬅ Volver al menú</a>
+    </div>
+    <div class="footer" id="footer-note">AlegreMente · Cargando escena…</div>
+  </main>
+
+  <!-- Script: carga la escena por ?scene=escena1 (o escenas/escena1.json por defecto) -->
+  <script src="script.js" type="module"></script>
+</body>
+</html>
