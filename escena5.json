@@ -62,15 +62,14 @@
   ],
   "vestuario": {
     "images": [
-      { "title": "Trajes tonos tierra – opción 1", "src": "vestuario-tierra1.jpg", "file": "vestuario-tierra1.jpg" },
-      { "title": "Trajes tonos tierra – opción 2", "src": "vestuario-tierra2.jpg", "file": "vestuario-tierra2.jpg" },
-      { "title": "Accesorios tejidos (mochilas, fajas)", "src": "accesorios-tejidos.jpg", "file": "accesorios-tejidos.jpg" },
-      { "title": "Faldas/ponchos regionales", "src": "ponchos-faldas.jpg", "file": "ponchos-faldas.jpg" }
+      { "title": "Trajes tonos tierra – opción 1", "src": "vestido5.jpg", "file": "vestido5.jpg" }
     ]
   },
   "escenario": {
     "images": [
       { "title": "Arte escena 5", "src": "Escena 5.jpg", "alt": "Arte guía Escena 5" },
+      { "title": "Frutas 1", "src": "frutas1.jpeg", "alt": "Frutas 1" },
+      { "title": "Frutas 2", "src": "frutas2.jpeg", "alt": "Frutas 2" },
       { "title": "Fondo 5", "src": "Fondo 5.jpg", "alt": "Montañas y caminos en tonos tierra" }
     ]
   },
@@ -98,7 +97,7 @@
     "Vestuario inspiración regional / tonos tierra. <span class='pill'>vestuario</span>",
     "Tiras de <b>trapillo</b> (verdes, cafés, ocres) para telar vivo. <span class='pill'>materiales</span>",
     "Álbum: cartón paja, hilo encerado, punzón, marcadores. <span class='pill'>utileria</span>",
-    "Proyección: <code>Fondo 5.jpg</code> (montañas/caminos). <span class='pill'>proyeccion</span>",
+    "Proyección: <code>Fondo</code> (montañas/caminos). <span class='pill'>proyeccion</span>",
     "Mochila tejida, cestos y “semillas”. <span class='pill'>utileria</span>",
     "Paleta de luces en verdes/ámbar (ver cues). <span class='pill'>luces</span>"
   ],
@@ -121,4 +120,3 @@
     { "term": "unísono", "def": "todos a la vez en la misma nota o gesto." }
   ]
 }
-
