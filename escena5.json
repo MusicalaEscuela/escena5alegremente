@@ -118,5 +118,14 @@
     { "term": "andante", "def": "tempo moderado, ideal para caminar y respirar en escena." },
     { "term": "telar vivo", "def": "acción colectiva de entrelazar tiras de tela para crear una figura." },
     { "term": "unísono", "def": "todos a la vez en la misma nota o gesto." }
+  ],
+  "pistas": [
+    {
+      "title": "Danza · Escena 5 — Nariño",
+      "href": "DANZA ESCENA 5 Nariño.mp3",
+      "areas": ["danza"],
+      "icon": "🎧"
+    }
   ]
 }
+
