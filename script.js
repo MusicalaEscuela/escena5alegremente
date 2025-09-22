@@ -17,7 +17,7 @@ async function loadConfig() {
   };
 
   const url = new URL(location.href);
-  const id  = url.searchParams.get('scene') || 'escena2';
+  const id  = url.searchParams.get('scene') || 'escena5';
 
   // Compat: si ya hay datos globales (por versiones anteriores)
   if (window.__SCENE__ || window.CONFIG_ESCENA) {
@@ -483,3 +483,4 @@ function asidePistas(items) {
     console.error(e);
   }
 })();
+
