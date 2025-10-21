@@ -105,7 +105,7 @@
     { "title": "Guión Escena V (PDF)", "href": "Guión Escena V.pdf", "areas": ["teatro", "produccion"], "icon": "📄" },
     { "title": "Carpeta de Partituras – Vivo en un país", "href": "[PON_AQUÍ_EL_ENLACE_DE_LA_CARPETA_DE_PARTITURAS]", "areas": ["musica"], "icon": "🎼" },
     { "title": "Pista – Vivo en un país (MP3)", "href": "Vivo en un país.mp3", "areas": ["musica"], "icon": "🎵" },
-    { "title": "Ensayo Danzas y Teatro - Lucero y Santo Domingo (oct)", "href": "youtube.com/watch?v=OI2ATxT0wTs&feature=youtu.be", "areas": ["danza"], "icon": "▶️" }
+    { "title": "Ensayo Danzas y Teatro - Lucero y Santo Domingo (oct)", "href": "https://www.youtube.com/watch?v=OI2ATxT0wTs", "areas": ["danza"], "icon": "▶️" }
     
   ],
   "docentes": {
@@ -130,6 +130,7 @@
     }
   ]
 }
+
 
 
 
